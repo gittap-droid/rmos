@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rmos Privacy Notice</title>
+<style>
+  :root {
+    --accent: #ff938a;
+    --accent-deep: #d96a62;
+    --accent-soft: #ffe8e5;
+    --accent-muted: #f5c4bf;
+    --ink: #2a2423;
+    --ink-soft: #5c5351;
+    --line: rgba(217, 106, 98, 0.22);
+    --paper: #fff9f8;
+    --card: #ffffff;
+    --wash: linear-gradient(165deg, #fff4f2 0%, #ffe8e5 42%, #fff9f8 100%);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--wash);
+    line-height: 1.7;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+  }
+  .shell {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 28px 20px 64px;
+  }
+  .banner {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 100%);
+    border-radius: 18px;
+    padding: 28px 24px;
+    color: #fff;
+    margin-bottom: 28px;
+    box-shadow: 0 10px 28px rgba(217, 106, 98, 0.28);
+  }
+  .banner .label {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.9;
+    margin-bottom: 8px;
+  }
+  .banner h1 {
+    font-size: 1.65rem;
+    font-weight: 650;
+    line-height: 1.25;
+    margin-bottom: 10px;
+  }
+  .banner p {
+    font-size: 0.95rem;
+    opacity: 0.95;
+    max-width: 36em;
+  }
+  .meta-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin-bottom: 32px;
+  }
+  .meta-card dl {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 8px 12px;
+    font-size: 0.92rem;
+  }
+  .meta-card dt { color: var(--ink-soft); }
+  .meta-card dd { color: var(--ink); word-break: break-word; }
+  .meta-card a { color: var(--accent-deep); text-decoration: none; }
+  .meta-card a:hover { text-decoration: underline; }
+  article section {
+    margin-bottom: 30px;
+    background: var(--card);
+    border-radius: 14px;
+    padding: 22px 20px;
+    border: 1px solid var(--line);
+  }
+  article h2 {
+    font-size: 1.15rem;
+    color: var(--accent-deep);
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--accent-soft);
+  }
+  article h3 {
+    font-size: 1rem;
+    color: var(--ink);
+    margin: 16px 0 8px;
+  }
+  p { margin-bottom: 12px; color: var(--ink); }
+  ul, ol {
+    margin: 0 0 12px 1.2em;
+    color: var(--ink);
+  }
+  li { margin-bottom: 6px; }
+  .note {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    padding: 12px 14px;
+    border-radius: 0 10px 10px 0;
+    margin: 14px 0;
+    font-size: 0.94rem;
+  }
+  .foot {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 0.88rem;
+    color: var(--ink-soft);
+    padding: 20px 8px;
+  }
+  .foot a { color: var(--accent-deep); }
+  @media (max-width: 480px) {
+    .shell { padding: 18px 14px 48px; }
+    .banner { padding: 22px 18px; border-radius: 14px; }
+    .banner h1 { font-size: 1.4rem; }
+    .meta-card dl { grid-template-columns: 1fr; gap: 4px; }
+    .meta-card dt { font-size: 0.8rem; }
+    article section { padding: 18px 16px; }
+  }
+</style>
+</head>
+<body>
+  <div class="shell">
+    <header class="banner">
+      <div class="label">Rmos</div>
+      <h1>How We Handle Information in Your Dining Archive</h1>
+      <p>Rmos is a personal, on-device companion for places you visit, dishes you remember, and meals you want to reopen later. This notice explains what stays on your phone, what permissions the app may request, and the limited circumstances in which information may leave the device.</p>
+    </header>
+
+    <div class="meta-card">
+      <dl>
+        <dt>Product</dt>
+        <dd>Rmos mobile application</dd>
+        <dt>Reach us</dt>
+        <dd><a href="mailto:ledger.notes@rmosarchive.app">ledger.notes@rmosarchive.app</a></dd>
+        <dt>Scope</dt>
+        <dd>Privacy practices for the Rmos dining ledger on iOS</dd>
+      </dl>
+    </div>
+
+    <article>
+      <section>
+        <h2>What Rmos Is Designed to Keep Local</h2>
+        <p>Rmos is built around a private menu and meal ledger that you create yourself. You can add restaurants, cuisine labels, addresses or location notes, ratings, price hints, personal notes, phone notes, favorites, pins, dishes, taste tags, visit dates, companion notes, feelings, party size, spend totals, and photos or video associated with dishes and meals.</p>
+        <p>Core archive records are written to the app sandbox on your device (including a structured state file and media files under the app documents area). Rmos does not require you to create an account, sign in, or maintain a remote profile in order to use these features. There is no mandatory cloud identity layer tied to your dining history.</p>
+        <div class="note">Because your archive lives primarily on the device you control, uninstalling the app, clearing local data from Settings, or losing the device without a backup you manage yourself may result in permanent loss of that archive.</div>
+      </section>
+
+      <section>
+        <h2>Categories of Information That May Appear in Your Archive</h2>
+        <h3>Content you enter</h3>
+        <p>Anything you type or select while building your ledger may be stored locally, including place names, dish names, custom cuisine labels, free-text notes, tags, search queries typed into the local search field, and preference toggles such as haptics, sound on save, reduce-motion preferences, and weekend reminder settings.</p>
+        <h3>Media you attach</h3>
+        <p>When you choose a photo from your library, take a picture with the camera, or capture video that includes audio, Rmos may store copies of those assets in the app sandbox so they remain available inside your archive. Camera, photo library, and microphone access are requested only when you initiate a media action that needs them.</p>
+        <h3>Operational signals on the device</h3>
+        <p>The operating system and the app may rely on ordinary technical state needed to run Rmos, such as permission status for camera, photos, microphone, and notifications; local notification schedules you enable; and temporary UI state. These signals are used to operate the features you turn on, not to assemble a remote advertising profile.</p>
+      </section>
+
+      <section>
+        <h2>Why the App Processes What You Store</h2>
+        <p>Information in Rmos is processed on-device to let you:</p>
+        <ul>
+          <li>Maintain a searchable personal map of places, dishes, and past meals, including pinyin-assisted local search where available;</li>
+          <li>Mark favorites, signature dishes, regulars, and items you want to order again;</li>
+          <li>Review visit history, reorder cues, and simple on-device summaries;</li>
+          <li>Export text summaries you choose to share through the system share sheet;</li>
+          <li>Optionally receive weekend reminders to revisit dishes you marked for another try;</li>
+          <li>Load bundled sample places and photos for demonstration, or erase the local archive when you confirm that action.</li>
+        </ul>
+        <p>We do not operate Rmos as a social network, public review site, or account-based cloud journal. Processing is oriented toward making your private ledger usable on the device where it resides.</p>
+      </section>
+
+      <section>
+        <h2>Permissions the System May Ask For</h2>
+        <p>Rmos requests system permissions only in connection with features that need them:</p>
+        <ul>
+          <li><strong>Camera</strong> — to capture dish and meal images or video for your local archive when you choose the camera source.</li>
+          <li><strong>Photo library</strong> — to select existing images for covers, dishes, or meals, and to save to your library only when you take an action that does so.</li>
+          <li><strong>Microphone</strong> — when recording video with sound that you intend to keep in the local archive.</li>
+          <li><strong>Notifications</strong> — if you enable the optional weekend want-again reminder; you can turn the reminder off in Settings at any time and can also revoke notification access in system Settings.</li>
+        </ul>
+        <p>Denying a permission limits the related feature; it does not prevent you from using the rest of the ledger with text and existing local records.</p>
+      </section>
+
+      <section>
+        <h2>Storage, Export, and Moments Data Leaves the Device</h2>
+        <p>Under ordinary use, restaurant, dish, visit, tag, and settings data remain in the app sandbox. Photos and related media copies that Rmos saves for the archive also remain in that sandbox.</p>
+        <p>If you use Export JSON summary or Export meals CSV, Rmos prepares text-oriented files that you can share through the iOS share sheet. Those exports describe ledger text; photos are not packaged into those export formats and remain in the on-device sandbox unless you separately copy or share media yourself.</p>
+        <p>When you share an export, open a link outside the app, or use system pickers and share destinations, the receiving app, service, or person may process what you send under their own terms. Rmos cannot control those destinations after you confirm a share.</p>
+        <p>Apple may process limited technical information related to App Store distribution, crash diagnostics you opt into at the system level, or other platform telemetry governed by Apple privacy settings. That processing is controlled by Apple, not by a Rmos-operated remote user database.</p>
+      </section>
+
+      <section>
+        <h2>Third Parties Touching the Experience</h2>
+        <p>Rmos does not require a Rmos-operated cloud account to sync your dining archive. Third parties that may interact with your device or with content you choose to share include:</p>
+        <ul>
+          <li>Apple platforms and system frameworks that provide storage, permissions, notifications, camera and photo pickers, and share sheet destinations;</li>
+          <li>Any app or service you select when exporting or sharing files;</li>
+          <li>Network providers and device vendors that may see ordinary connection metadata if you use network-dependent system features.</li>
+        </ul>
+        <p>We do not sell your dining archive, and we do not use the content of your private menu as inventory for cross-app advertising networks operated by Rmos.</p>
+      </section>
+
+      <section>
+        <h2>Practical Safeguards and Their Limits</h2>
+        <p>We take reasonable steps appropriate to an on-device product, including keeping primary archive content in the application sandbox, requesting permissions in context, and providing in-app controls to erase local data after a deliberate confirmation. Device passcodes, biometric locks, operating-system updates, and backups you configure affect how well that sandbox is protected in practice.</p>
+        <p>No mobile environment can guarantee that unauthorized access, device loss, malware, or platform vulnerabilities will never occur. Treat Rmos records as personal content you should protect with the same care you give other notes and photos on your phone.</p>
+      </section>
+
+      <section>
+        <h2>How Long Material Stays Available</h2>
+        <p>Local archive entries and media copies generally remain until you edit or delete them, erase all local data through Settings, or remove the app in a way that clears its container. Optional reminder schedules persist while the related setting remains enabled and system authorization allows delivery.</p>
+        <p>If you previously shared an export with someone else or uploaded it elsewhere, copies outside Rmos follow the retention rules of that destination and are outside this notice’s control.</p>
+      </section>
+
+      <section>
+        <h2>Choices You Control Directly</h2>
+        <ul>
+          <li>Add, edit, or delete places, dishes, visits, tags, and media within the app.</li>
+          <li>Toggle haptics, save sounds, reduce-motion preferences, and the weekend reminder.</li>
+          <li>Grant or revoke camera, photos, microphone, and notification access in iOS Settings.</li>
+          <li>Export text summaries when you want a portable copy, or decline to export.</li>
+          <li>Confirm erasure of all local data when you want a clean slate.</li>
+        </ul>
+        <p>Questions about these practices can be sent to <a href="mailto:ledger.notes@rmosarchive.app">ledger.notes@rmosarchive.app</a>. We will review reasonable requests related to this notice and the product as offered.</p>
+      </section>
+
+      <section>
+        <h2>Younger Users</h2>
+        <p>Rmos is intended for adults who manage their own dining notes. It is not directed at children under 13, and we do not knowingly seek to collect personal information from children under 13 through a Rmos account system (the app has none). If you believe a child has stored sensitive content on a shared device, use device parental controls and the in-app erase tools as appropriate, and contact us at the address above so we can advise on product-related steps within our control.</p>
+      </section>
+
+      <section>
+        <h2>Updates to This Notice</h2>
+        <p>As Rmos evolves, we may revise this notice to reflect new features, permission uses, or legal requirements. Material changes will be presented in a reasonable way within the product or accompanying materials. Continued use after an update takes effect means you acknowledge the revised notice for subsequent use.</p>
+        <p>This privacy notice became effective on September 7, 2026.</p>
+      </section>
+
+      <section>
+        <h2>Governing Framework</h2>
+        <p>Interpretation and enforcement of this notice are guided by applicable laws of the United States and, where required by your place of residence or use, other mandatory consumer or privacy rules that cannot be waived. Disputes arising from privacy practices described here may be brought before competent dispute resolution bodies with jurisdiction under those laws.</p>
+      </section>
+    </article>
+
+    <footer class="foot">
+      <p>Rmos · On-device dining archive</p>
+      <p><a href="mailto:ledger.notes@rmosarchive.app">ledger.notes@rmosarchive.app</a></p>
+    </footer>
+  </div>
+</body>
+</html>
